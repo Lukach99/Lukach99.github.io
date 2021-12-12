@@ -1,0 +1,374 @@
+
+
+.main{
+    display: flex;
+    flex-direction: row;
+    padding-top: 2rem;
+    align-items: flex-start;
+    margin-top: 2rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+}
+
+.header{
+    
+    position: fixed;
+    
+    justify-content: center;
+    margin-right: 2rem;
+    align-items: center;
+ 
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.navigation{
+    display: flex;
+    
+    flex-direction: column;
+    margin-top: 1.5rem;
+
+}
+
+.navigation a{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.4rem;
+    text-decoration: none;
+    color: black;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.navigation a:hover{
+    background-color: gray;
+    color: white;
+}
+
+.navigation i{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.6rem;
+    color: rgb(218, 218, 218);
+    
+}
+
+
+
+.soc-icons{
+    display: flex;
+    margin-left: 0.4rem;
+    margin-top: 1.2rem;
+    
+}
+
+.soc-icons i{
+    margin-right: 0.4rem;
+    color: black;
+}
+
+.soc-icons i:hover{
+    color: gray;
+}
+
+.naslovna{
+    display: flex;
+    padding: 1rem 1rem;
+    flex: 80%;
+    margin-left: 17%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.naslov-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+    
+}
+
+.info-slike{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.slike-div{
+    width: 350px;
+}
+.slika-main{
+    width: 350px;
+    height: 196.88px;
+    object-fit: cover;
+    object-position: 0% 15%;
+    margin-bottom: 1rem;
+    
+}
+
+.slika-main-nakit{
+    width: 350px;
+    height: 196.88px;
+    object-fit: cover;
+    object-position: 0% 45%;
+    margin-bottom: 1rem;
+}
+
+.slika-main-nakit2{
+    width: 350px;
+    height: 196.88px;
+    object-fit: cover;
+    object-position: 0% 49%;
+    margin-bottom: 1rem;
+}
+
+.slika-main-nakit3{
+    width: 350px;
+    height: 196.88px;
+    object-fit: cover;
+    object-position: 0% 50%;
+    margin-bottom: 1rem;
+}
+
+.slika-main-interior{
+    width: 350px;
+    height: 196.88px;
+    object-fit: cover;
+    object-position: 0% 40%;
+    margin-bottom: 1rem;
+}
+
+.slika-main-hrana{
+    width: 350px;
+    height: 196.88px;
+    object-fit: cover;
+    object-position: 0% 52%;
+    margin-bottom: 1rem;
+}
+
+.slika-main-hrana2{
+    width: 350px;
+    height: 196.88px;
+    object-fit: cover;
+    object-position: 90% 52%;
+    margin-bottom: 1rem;
+}
+
+.slika-main-skoko{
+    width: 350px;
+    height: 196.88px;
+    object-fit: cover;
+    object-position: 0% 10%;
+    margin-bottom: 1rem;
+}
+.slika-main-brac{
+    width: 350px;
+    height: 196.88px;
+    object-fit: cover;
+    object-position: 0% -50%;
+    margin-bottom: 1rem;
+}
+
+
+
+.slike-div{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+    margin: 1rem 1rem;
+}
+
+.copyrights{
+    margin-top: 3rem;
+    text-align: left;
+    font-size: 0.7rem;
+    color: rgb(173, 173, 173);
+    line-height: 1.7rem;
+}
+
+.footer{
+    text-align: center;
+    width: 100%;
+    margin-top: 2rem;
+
+    
+}
+
+
+.img-footer{
+    width: 110px;
+    height: 50px;
+    opacity: 0.7;
+    transition: all 0.15s ease-in-out;
+}
+
+.img-footer:hover{
+    opacity: 1;
+   
+}
+
+
+.img-footer2{
+    width: 150px;
+    height: 50px;
+    filter: grayscale(100%);
+    transition: all 0.15s ease-in-out;
+}
+
+.img-footer2:hover{
+    filter: grayscale(0%)
+}
+
+.partner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 3.5rem;
+}
+
+.partner p{
+    margin-top: 1rem;
+    text-decoration: none;
+    color: black;
+    opacity: 0.6;
+    transition: all 0.15s ease-in-out;
+    
+}
+
+
+.partner p:hover{
+    opacity: 1;
+}
+
+.partner a{
+    text-decoration: none;
+
+    
+}
+
+.carousel-item {
+    
+    transition: transform 1s ease-in-out;
+  }
+.carousel-fade .active.carousel-item-start,
+.carousel-fade .active.carousel-item-end {
+    transition: opacity 0s 1.2s;
+  }
+
+
+
+.naslov-main h3{
+    margin-bottom: 2rem;
+}
+
+.tb{
+    display: flex;
+    width: 80%;
+    
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+    
+}
+
+.row1-1{
+    display: flex;
+    flex-direction: column;
+    flex: 30%;
+}
+
+.row-3{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1.5rem;
+}
+
+.row-3-3{
+    display: flex;
+    flex-direction: column;
+    flex: 30%;
+    margin-right: 0.5rem;
+}
+
+.row-3-3-3{
+    display: flex;
+    flex-direction: column;
+    flex: 30%;
+    
+}
+
+.form-group{
+    margin-bottom: 1rem;
+}
+
+.rad{
+    display: flex;
+    flex-direction: row;
+    flex: 50%;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+    
+
+}
+
+.end{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    
+    
+}
+
+.fr{
+    width: 100%;
+}
+
+.grupirane-slike{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.slika-vert{
+    width: 240px;
+    height: 300px;
+    object-fit: cover;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.slika-hori{
+    width: 320px;
+    height: 240px;
+    object-fit: cover;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.slika-vert:hover{
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+}
+
+.slika-hori:hover{
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+}
+
